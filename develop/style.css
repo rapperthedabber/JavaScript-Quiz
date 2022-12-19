@@ -1,0 +1,28 @@
+* {
+    background-color: chartreuse;
+    text-align: center;
+}
+.p-5{
+    font-size: 50px;
+}
+body{
+    border-radius: 20px;
+    border: solid 10px;
+    margin: 100px;
+    padding-bottom: 50px;
+}
+h1:welcome{
+    font-size: large;
+}
+li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: blue
+}
+.btn{
+    font-size: larger;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid 5px darkslategrey;
+    border-radius: 20px;
+}
