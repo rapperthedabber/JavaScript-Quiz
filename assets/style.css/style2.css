@@ -52,3 +52,6 @@ button{
     background-color: turquoise;
     color:black
 }
+.hide{
+    display: none;
+}

@@ -16,8 +16,26 @@
                   
         
             </div>
+        
+    <div>
+time: <span id="timer"></span>
+    </div>
       
     </nav>
+    <div class = "Result hide"> 
+        <h1> GameOver</h1>
+        <h2>your score is: <span id="score"></span></h2 >
+        <input type="text" id="initials">
+        <button id = "submitBtn">submit</button>
+
+    </div>
+    <div class = "leaderBoard hide">
+        <h1> leaderBoard: </h1>
+        <ol id = "scoreList">
+        </ol>
+
+    </div>
+    <div id = "game">
     <div class="intro">
         <h1 id = "JavaScript">What is Javascript?</h1>
         <div class = "content">
@@ -40,6 +58,7 @@
     </div class = "Error">
     <h1 id = "errorMessage"></h1>
     <h2 id = "scoreMessage"></h2>
+    </div>
     </div>
     <script
   src="https://code.jquery.com/jquery-3.6.2.js"
